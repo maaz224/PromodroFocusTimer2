@@ -1,0 +1,38 @@
+body {
+  background-color: #1e212d !important;
+  color: #eabf9f !important;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.pomodoro {
+  color: #eabf9f;
+}
+
+.pomodoro .timer {
+  font-size: 9rem; /* Adjust the font size as needed */
+}
+
+.pomodoro .btn-primary {
+  background-color: #eabf9f;
+  border-color: #eabf9f;
+  color: #1e212d;
+}
+
+.pomodoro .btn-primary:hover {
+  background-color: #d3a27b;
+  border-color: #d3a27b;
+}
+
+.pomodoro .form-control {
+  background-color: #1e212d;
+  color: #eabf9f;
+  border: 1px solid #eabf9f;
+}
+
+.pomodoro .form-control:focus {
+  background-color: #1e212d;
+  color: #eabf9f;
+  border-color: #d3a27b;
+  box-shadow: none;
+}
